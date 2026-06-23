@@ -1,4 +1,4 @@
-# Como rodar este projeto — instruções para a Yasmin
+# Como rodar este projeto — instruções
 
 Esse projeto **não funciona no sandbox da conversa** (a Play Store não é
 acessível de lá), então os passos abaixo são para rodar no **seu computador**.
