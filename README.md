@@ -1,10 +1,10 @@
-# 📰 Análise de Reviews de Apps de Notícias com IA
+# Análise de Reviews de Apps de Notícias com IA
 
 > Mini-estudo de produto: extraindo temas e insights acionáveis de reviews
-> públicas da Play Store, com apoio de IA generativa, comparando o UOL
-> Notícias a 4 concorrentes diretos.
+> públicas da Play Store, com apoio de IA generativa, comparando o APP UOL
+> Not. a 4 concorrentes diretos.
 
-## 🎯 O problema
+## O problema
 
 Apps de notícias recebem milhares de reviews públicas, mas poucas equipes de
 produto têm tempo de ler review por review para identificar padrões. Este
@@ -12,14 +12,14 @@ projeto testa um fluxo leve — coleta + IA — para transformar feedback não
 estruturado em insights priorizáveis, comparando o **UOL Notícias** a 4
 concorrentes diretos: **G1, Folha de S.Paulo, Estadão e R7**.
 
-## 🧠 Hipótese
+## Hipótese
 
 Reviews públicas, mesmo sem estrutura, concentram sinais recorrentes
 (reclamações sobre anúncios, performance, paywall) que podem ser extraídos
 com apoio de IA generativa mais rápido do que com leitura manual — e ainda
 assim com qualidade suficiente para embasar decisões de priorização.
 
-## ⚙️ Método
+## Método
 
 1. **Coleta:** script Python (`scraper.py`) usando a biblioteca
    `google-play-scraper` para extrair ~60 reviews públicas recentes de cada
@@ -31,14 +31,13 @@ assim com qualidade suficiente para embasar decisões de priorização.
 3. **Consolidação e visualização:** os temas extraídos foram agregados e
    visualizados por frequência entre os 5 apps.
 
-## 🏆 Achado principal: performance é o maior risco competitivo
+## Achado principal: performance é o maior risco competitivo
 
 ![Comparação de reclamações de performance entre apps](grafico_performance_apps.png)
 
 O **Estadão concentra 67% das reviews citando lentidão, travamento ou falha
-ao carregar** — disparado o pior da categoria nesta amostra. O UOL Notícias
-(17%) está em linha com a Folha (18%), enquanto o **G1 (3%)** é o benchmark
-de melhor desempenho percebido.
+ao carregar** — disparado o maior da categoria nesta amostra. O UOL Notícias
+(17%) está em linha com a Folha (18%).
 
 ## 📊 Temas consolidados
 
@@ -52,24 +51,14 @@ de melhor desempenho percebido.
 | Acessibilidade (PCD) | UOL Notícias | Negativo | Avaliar auditoria de acessibilidade |
 | Bugs de login/autenticação | Folha, R7, UOL | Negativo | Investigar fluxo de autenticação entre apps do grupo |
 
-## 🎯 As 3 implicações mais relevantes para o UOL Notícias
+## Implicaçao mais relevante
 
-1. **Modo escuro ausente é o pedido mais repetido e específico do UOL** —
+1. **Modo escuro ausente é o pedido mais repetido e específico** —
    aparece em múltiplas reviews ao longo de meses, sempre como crítica
    direta. Provavelmente o quick win de maior relação esforço/impacto
    identificado nesta análise.
 
-2. **A integração de conteúdo com a Folha está quebrando a confiança do
-   assinante UOL** — relatos de usuários pagantes redirecionados para
-   conteúdo da Folha que não conseguem ler ou comentar. Percebido como
-   "enganação" pelos próprios usuários — risco reputacional direto.
-
-3. **UOL não está em desvantagem de performance frente à Folha, mas também
-   não se destaca como o G1** — espaço para usar performance como
-   diferencial competitivo, especialmente dado o quão mal o Estadão está
-   performando nesse quesito.
-
-## ⚠️ Limitações
+## Limitações
 
 - Amostra de ~45-60 reviews por app, ordenadas pelas mais recentes — não é
   estatisticamente representativa
@@ -80,7 +69,7 @@ de melhor desempenho percebido.
 - Classificação de tema/sentimento via IA generativa é uma aproximação útil
   para priorização exploratória, não substitui análise qualitativa profunda
 
-## 🔁 Próximos passos
+## Possiveis próximos passos
 
 - Aumentar o volume de reviews e repetir a coleta periodicamente para
   observar tendência ao longo do tempo
@@ -89,18 +78,9 @@ de melhor desempenho percebido.
 - Automatizar a etapa de extração via API, eliminando o processo manual de
   colar lotes
 
-## 🛠️ Stack
+## Stack
 
 `Python` · `google-play-scraper` · `pandas` · `matplotlib` · `Claude (Anthropic)` para extração de temas/sentimento
-
-## 🔄 Como reproduzir
-
-Veja [`COMO_RODAR.md`](COMO_RODAR.md) para o passo a passo completo.
-
-```bash
-pip install -r requirements.txt
-python scraper.py
-```
 
 ---
 
