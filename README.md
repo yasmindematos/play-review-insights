@@ -1,15 +1,14 @@
 # Análise de Reviews de Apps de Notícias com IA
 
 > Mini-estudo de produto: extraindo temas e insights acionáveis de reviews
-> públicas da Play Store, com apoio de IA generativa, comparando o APP UOL
-> Not. a 4 concorrentes diretos.
+> públicas da Play Store, com apoio de IA generativa, comparando o APP Not. a 4 concorrentes diretos.
 
 ## O problema
 
 Apps de notícias recebem milhares de reviews públicas, mas poucas equipes de
 produto têm tempo de ler review por review para identificar padrões. Este
 projeto testa um fluxo leve — coleta + IA — para transformar feedback não
-estruturado em insights priorizáveis, comparando o **UOL Notícias** a 4
+estruturado em insights priorizáveis, comparando o app **Notícias** a 4
 concorrentes diretos: **G1, Folha de S.Paulo, Estadão e R7**.
 
 ## Hipótese
@@ -34,8 +33,8 @@ assim com qualidade suficiente para embasar decisões de priorização.
 ## Achado principal: performance é o maior risco competitivo
 
 O **Estadão concentra 67% das reviews citando lentidão, travamento ou falha
-ao carregar** — disparado o maior da categoria nesta amostra. O UOL Notícias
-(17%) está em linha com a Folha (18%).
+ao carregar** — disparado o maior da categoria nesta amostra. O app Notícias
+(17%) está em linha com Folha (18%).
 
 ## Implicação mais relevante
 
