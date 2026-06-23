@@ -47,7 +47,7 @@ extraídas da Google Play Store. Cada review tem: nome do app, nota (1-5) e text
 | ... | ... | ... | "..." | ... |
 
 Ao final, escreva um parágrafo de síntese geral comparando os apps (se houver
-mais de um no lote), destacando o que o app do UOL Notícias faz melhor ou pior
+mais de um no lote), destacando o que o app do Notícias faz melhor ou pior
 que os concorrentes nesses temas.
 
 **Reviews para análise:**
