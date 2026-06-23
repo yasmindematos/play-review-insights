@@ -33,23 +33,9 @@ assim com qualidade suficiente para embasar decisões de priorização.
 
 ## Achado principal: performance é o maior risco competitivo
 
-![Comparação de reclamações de performance entre apps](grafico_performance_apps.png)
-
 O **Estadão concentra 67% das reviews citando lentidão, travamento ou falha
 ao carregar** — disparado o maior da categoria nesta amostra. O UOL Notícias
 (17%) está em linha com a Folha (18%).
-
-## 📊 Temas consolidados
-
-| Tema | Onde é mais forte | Sentimento | Implicação de produto |
-|---|---|---|---|
-| Lentidão / travamento ao abrir | Estadão (67%), Folha (18%), UOL (17%) | Negativo | Monitorar tempo de abertura como métrica de produto; G1 como benchmark interno |
-| Cancelamento de assinatura difícil | Folha (~18% das reviews) | Negativo | Cancelamento simples como possível diferencial de confiança |
-| Anúncios para assinantes pagantes | UOL, Estadão, G1 | Negativo | Revisar regras de exibição de anúncio por tipo de assinatura |
-| Falta de modo escuro | **UOL Notícias (exclusivo)** | Negativo | Quick win — feature de baixo esforço e alta demanda explícita |
-| Redirecionamento para Folha sem acesso | **UOL Notícias (exclusivo)** | Negativo | Mapear jornada cross-brand; risco de percepção de "enganação" |
-| Acessibilidade (PCD) | UOL Notícias | Negativo | Avaliar auditoria de acessibilidade |
-| Bugs de login/autenticação | Folha, R7, UOL | Negativo | Investigar fluxo de autenticação entre apps do grupo |
 
 ## Implicaçao mais relevante
 
