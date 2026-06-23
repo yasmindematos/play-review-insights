@@ -37,7 +37,7 @@ O **Estadão concentra 67% das reviews citando lentidão, travamento ou falha
 ao carregar** — disparado o maior da categoria nesta amostra. O UOL Notícias
 (17%) está em linha com a Folha (18%).
 
-## Implicaçao mais relevante
+## Implicação mais relevante
 
 1. **Modo escuro ausente é o pedido mais repetido e específico** —
    aparece em múltiplas reviews ao longo de meses, sempre como crítica
